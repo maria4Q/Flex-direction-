@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;	
+}
+.titulo{
+	text-align: center;
+	margin: 30px;
+	font-size: 35px;
+	color: #D94848;
+}
+section{
+	width: 1300px;
+	margin: auto;
+}
+.caja{
+	width: 100%;
+	border: 1px solid gray;
+	margin: auto;	
+}
+.caja_1{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+.caja .caja_1 div{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	background-color: #310F40;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+.caja_2{
+	display: flex;
+	flex-direction: row-reverse;
+    justify-content: center;
+}
+.caja_2 div{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	background-color: #310F40;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid gray;
+}
+.caja-2{
+	display: flex;
+	border: 1px solid gray;
+}
+.caja-2 .cajaNum-1{
+	width: 650px;
+}
+.caja-2 .cajaNum-2{
+	width: 650px;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+.num{
+	font-size: 50px;
+	text-align: center;
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin: 10px auto 10px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: white;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+.cajaNum-1 div{
+	background-color: #9AD2D9;
+}
+.cajaNum-2 div{
+	background-color: #D9644A;
+	flex-direction: column-reverse;
+}
+
+
+
+
+
+
+
+
